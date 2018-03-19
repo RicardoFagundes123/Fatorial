@@ -8,3 +8,4 @@ def fat(n):
 
 print( fat(5) )
 print( fat(-5.2) )
+print( fat(10) )
