@@ -1,6 +1,6 @@
 def fat(n):
-	if ( not isinstance(n, (int, long)) ):
-	 	return TypeError("N must be an integer or long")	
+	if ( not isinstance(n, (int, long, str)) ):
+	 	return TypeError("N must be an integer or long")
 	elif (n <= 1):
 		return 1
 	else:
