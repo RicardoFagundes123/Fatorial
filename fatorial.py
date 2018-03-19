@@ -1,9 +1,9 @@
 def fat(n):
-	if ( n is not int(n) ):
+	if ( not isinstance(n, (int, long)) ):
 	 	return False	
 	elif (n <= 1):
 		return 1
 	else:
 		return n * fat(n - 1)
 
-
+print( fat(5) )
